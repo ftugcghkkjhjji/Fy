@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('2.jpg'); /* Ganti dengan gambar latar romantis */
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff4d4d;
+}
+
+.love-image {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+
+button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff3333;
+}
+
+.hidden {
+    display: none;
+}
+
+#love-letter {
+    margin-top: 20px;
+    font-size: 1.3em;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
